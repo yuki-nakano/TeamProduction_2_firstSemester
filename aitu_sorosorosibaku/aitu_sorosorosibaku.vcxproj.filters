@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{13e50663-89fe-4646-b9cd-d38266d45357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{5def3e17-3dfc-4526-bc1b-ea06c1faa542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Gimmick">
+      <UniqueIdentifier>{0734a77f-ca3e-4616-ba64-17cef99b34b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Boss">
+      <UniqueIdentifier>{a89061c5-f314-4961-bccd-f664b6d1403d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\GameManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\InputManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\SceneManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\SoundManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\TextureManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\InGameScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Option.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Player.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\Ridder.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\GimmickBace.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\Ball.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\Sun.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\Mine.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\NewsPaper.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\GimmickManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\Wood.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\EnergyBullet.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\Desk.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gimmick\Thief.cpp">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boss\Boss.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boss\BossGimmickBace.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boss\Dog.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boss\Metor.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boss\BlockHole.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boss\FloatEnemy.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boss\Laser.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Manager\GameManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\InputManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\SceneManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\SoundManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\TextureManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\SceneBase.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Definition.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Singleton.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\InGameScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\TitleScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Option.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Player.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\Ridder.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\GimmickBace.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\Ball.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\Sun.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\Mine.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\NewsPaper.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\GimmickManager.h">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\Wood.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\EnergyBullet.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\Desk.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmick\Thief.h">
+      <Filter>ソース ファイル\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boss\Boss.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boss\BossGimmickBace.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boss\Dog.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boss\Metor.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boss\BlockHole.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boss\FloatEnemy.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boss\Laser.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
